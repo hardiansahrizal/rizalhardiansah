@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Form</h1>
+    <form action="/submit" method="post">
+        <label for="nama">Nama Lengkap:</label><br>
+        <input type="text" id="nama" name="nama" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Kata Sandi:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="jenis_kelamin">Jenis Kelamin:</label><br>
+        <input type="radio" id="pria" name="jenis_kelamin" value="pria">
+        <label for="pria">Pria</label><br>
+        <input type="radio" id="wanita" name="jenis_kelamin" value="wanita">
+        <label for="wanita">Wanita</label><br><br>
+
+        <label for="hobi">Hobi:</label><br>
+        <input type="checkbox" id="Main Mole" name="hobi" value="Main Mole">
+        <label for="Main Mole">Main Mole</label><br>
+        <input type="checkbox" id="Mancing" name="hobi" value="Mancing">
+        <label for="Mancing">Mancing</label><br><br>
+
+        <label for="negara">Pilih Negara:</label><br>
+        <select id="negara" name="negara">
+            <option value="indonesia">Indonesia</option>
+            <option value="Thailand">Thailand</option>
+            <option value="Korea Selatan">Korea Sekatan</option>
+        </select><br><br>
+
+        <button type="submit">Kirim</button>
+    </form>
+</body>
+</html>
