@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+  }
+  body{
+    background-color: #343a40;
+  }
+  
+  .container{
+    width: 80%;
+    height: 500px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #6f42c1;
+    box-shadow: 1px 1px 60px white;
+   }
+   
+   .login-text{
+     text-align: center;
+     color: white;
+   }
+   
+   .hr {
+     margin-top: 10px;
+     margin-bottom: 20px;
+   }
+  .form-table {
+   font-size: 20px;
+   text-align: left;
+   color: white;
+  }
+  
+  .form-input {
+   padding: 8px;
+   font-size: 15px;
+   width: calc (100% - 20px;
+   border-radius: 10px;
+  }
+  
+  .form.username{
+    margin-bottom: 40px;
+    
+  }
+  
+  .btn {
+    background-color: red;
+    font-size: 20px;
+    width: 100%;
+  }
